@@ -1,0 +1,207 @@
+* {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+  }
+
+  body {
+    height: 100.001vh;
+  }
+  
+  html::-webkit-scrollbar {
+    display: none !important;
+    scroll-behavior: unset !important;
+  }
+
+  .btn.btn-primary.checking {
+    border-radius: 3px !important;
+    box-shadow: 1.5px 1.5px #888888 !important;
+    background-color: rgb(192, 255, 229) !important;
+    border: none !important;
+    vertical-align: middle;
+    color: rgb(0, 0, 0) !important;
+  }
+  .btn.btn-primary.checking:hover {
+    background-color: rgb(143, 248, 142) !important;
+    color: black !important;
+    box-shadow: -1.5px 1.5px #cac9c9 !important;
+  }
+  .btn.btn-primary.checking.checked {
+    background-color: rgb(143, 248, 142) !important;
+    color: black !important;
+    box-shadow: -1.5px 1.5px #cac9c9 !important;
+  }
+  .btn.btn-primary.checking.checked:hover {
+    border-radius: 3px !important;
+    box-shadow: 1.5px 1.5px #888888 !important;
+    background-color: rgb(192, 255, 229) !important;
+    border: none !important;
+    color: rgb(0, 0, 0) !important;
+  }
+
+  .btn-check {
+    vertical-align: middle !important;
+  }
+
+  .cen {
+    display: flex;
+    align-items: center;
+  }
+
+  .end {
+    justify-content: end;
+  }
+
+  .btn-primary {
+    border-radius: 3px !important;
+    box-shadow: 1.5px 1.5px #dee2e6 !important;
+    background-color: rgb(43 48 53) !important;
+    border: none !important;
+  }
+  .btn-primary:hover {
+    background-color: rgb(222 226 230) !important;
+    color: black !important;
+    box-shadow: -1.5px 1.5px #dee2e6 !important;
+  }
+  .btn-primary:active {
+    background-color: rgb(0, 0, 0) !important;
+    color: rgb(255, 255, 255) !important;
+    box-shadow: -1.5px 1.5px #cac9c9 !important;
+  }
+  /* .btn-primary:focus {
+    background-color: rgb(0, 0, 0) !important;
+    color: rgb(255, 255, 255) !important;
+    box-shadow: -1.5px 1.5px #cac9c9;
+    border-color: rgba(255, 228, 196, 0.762);
+  } */
+
+  .genbtn {
+    margin: auto;
+  }
+
+  .form-select {
+    border-radius: .5px !important;
+  }  
+
+  button[type=submit] {
+    display: none !important;
+  }
+
+  input[type=text] {
+    border-radius: .5px !important;
+  }
+
+  #company_field {
+    border-radius: .7px;
+    overflow: hidden;
+    resize: none;
+  }
+  .parent-options {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    max-height: 67vh;
+    overflow-y: auto;
+  }
+  .parent-options div {
+    border-radius: .5px;
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid rgba(128, 128, 128, 0.16);
+    padding: 5px;
+    width: 100%;
+  }
+  .parent-options div:hover {
+    background-color: rgb(56, 56, 56) !important;
+    color: #ffffff !important;
+  }
+  .options-active {
+    /*when navigating through the items using the arrow keys:*/
+    background-color: rgb(56, 56, 56) !important;
+    color: #ffffff !important;
+  }
+
+  .hyperlink {
+    color: #0c0c0c !important;
+    cursor:pointer !important;
+    font-size: medium !important;
+    text-align: center;
+  }
+  .hyperlink:hover {
+    background-color: #131313 !important;
+    color:rgb(247, 250, 249) !important;
+  }
+
+  /* .loader2, .loader2:before, .loader2:after {
+    border-radius: 50%;
+    width: 2.5em;
+    height: 2.5em;
+    animation-fill-mode: both;
+    animation: bblFadInOut 1.8s infinite ease-in-out;
+  }
+  .loader2 {
+    color: #FFF;
+    font-size: 7px;
+    position: relative;
+    text-indent: -9999em;
+    transform: translateZ(0);
+    animation-delay: -0.16s;
+  }
+  .loader2:before,
+  .loader2:after {
+    content: '';
+    position: absolute;
+    top: 0;
+  }
+  .loader2:before {
+    left: -3.5em;
+    animation-delay: -0.32s;
+  }
+  .loader2:after {
+    left: 3.5em;
+  }
+  
+  @keyframes bblFadInOut {
+    0%, 80%, 100% { box-shadow: 0 2.5em 0 -1.3em }
+    40% { box-shadow: 0 2.5em 0 0 }
+  } */
+      
+  #fin_text *{
+    overflow-anchor: none;
+  }
+
+  #anchor {
+    overflow-anchor: auto;
+    height: 1px;
+  }
+
+
+  .ktaways:hover {
+    cursor: pointer !important;
+    text-decoration: underline !important;
+  }
+
+
+  .td_contain {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .unit {
+    flex: 1;
+    padding: 2px;
+    text-align: center;
+  }
+  th, td{
+    text-align: center !important;
+  }
+
+  .pos{
+    background-color: rgb(154, 251, 206);
+  }
+
+  .neg{
+    background-color: rgb(252, 163, 134);
+  }
+
+  .neu{
+    background-color: rgb(255, 247, 244);
+  }
