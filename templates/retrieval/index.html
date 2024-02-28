@@ -27,6 +27,7 @@
             class="row row-cols-1 row-cols-xs-2 row-cols-md-4 p-2 align-items-center"
           >
             <div class="col-3">
+              <div class="search-container">
               <div
                 class="form-floating"
                 style="position: relative; z-index: 1; width: auto"
@@ -40,7 +41,9 @@
                   spellcheck="false"
                 ></textarea>
                 <label for="company_field">Company Name</label>
+                <span class="clear-search" onclick="clearSearch()">✕</span>
               </div>
+            </div>
             </div>
             <div class="col-3">
               <div class="form-floating">

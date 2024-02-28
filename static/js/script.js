@@ -1,4 +1,11 @@
 console.log("Hi");
+
+
+function clearSearch() {
+  document.getElementById('company_field').value = '';
+}
+
+
 companies = null;
 
 prev_doc = "";

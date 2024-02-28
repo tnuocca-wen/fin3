@@ -205,3 +205,16 @@
   .neu{
     background-color: rgb(255, 247, 244);
   }
+
+
+  .search-container {
+    position: relative;
+  }
+  
+  .clear-search {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
